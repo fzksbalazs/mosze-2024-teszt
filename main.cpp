@@ -19,7 +19,7 @@ int main()
     int atlag = 0; // kezdeti ertekadas
     for (int i = 0; i < N_ELEMENTS; i++)
     {
-        atlag += b[i]; // ; hiánya
+        atlag += b[i]; // ; hiányaa
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
